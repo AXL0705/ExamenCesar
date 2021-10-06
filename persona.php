@@ -13,12 +13,12 @@ class Persona{
         
         echo '<table style="border:2px solid black;">'.'<tr>'.
             '<th style="border-right:2px solid black;">Nombre</th>'.
-            '<th style="border-right:2px solid black;">Peso</th>'.
-            '<th style="border-right:2px solid black;">Estatura</th>'.
+            '<th style="border-right:2px solid black;">Peso (kg)</th>'.
+            '<th style="border-right:2px solid black;">Estatura (mts)</th>'.
             '<th style="border-right:2px solid black;">IMC</th>'.
         '</tr>'.
         '<tr>'.
-            '<td style="border-right:2px solid black;">'.$this->nombre.'</td>'.
+            '<td style="border-right:2px solid black;">'.$this->nombre.' </td>'.
             '<td style="border-right:2px solid black;">'.$this->peso.'</td>'.
             '<td style="border-right:2px solid black;">'.$this->estatura.'</td>'.
             '<td style="border-right:2px solid black;">'.$this->IMC.'</td>'.
